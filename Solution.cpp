@@ -18,7 +18,6 @@ public:
     }
     return index;
     }
-
     void dfs (int node, vector<int>&dist, vector<int>&edges, vector<bool>&visited, int distance){
 
     if(  node!=-1 && !visited[node])
